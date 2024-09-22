@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static' , filename='css/style.css') }}">
+    <link rel="website icon" href="../static/image/IMG_20240207_180924.jpg">
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}  {% endblock title %}
+    </title>
+</head>
+<body>
+    {% block content %}{% endblock content %}
+</body>
+</html>

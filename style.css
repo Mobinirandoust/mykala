@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: beige;
+}
+
+#title-pj a {
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    font-size: 30px;
+    background-color: darkslategrey;
+    padding: 15px;
+    margin: 15px;
+    position: fixed;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menutop {
+    margin: 100px;
+    background-color: brown;
+}
+
+.menutop li {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    margin: 20px;
+}
+
+@font-face {
+    font-family: A06Y;
+    src: url(../Font/BBadrBd.ttf);
+}
+
+.menutop li a {
+    font-family: A06Y;
+    padding: 10px;
+    color: bisque;
+    text-decoration: none;
+    font-size: 24px;
+}
+.menutop li a:hover {
+    background-color: rgb(245, 225, 2);
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    color: black;
+}
+
+.atterbute{
+    text-align: right;
+    margin: 30px;
+}
+.atterbute2{
+    width: 1300px;
+    margin: 10px;
+    display: inline-flex;
+    overflow-x: scroll ;
+}
+.atterbute3 img{
+    border: 1px solid black;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.atterbute3 p{
+    margin: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+}
